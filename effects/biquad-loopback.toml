@@ -1,0 +1,15 @@
+# the color space is _actually_ BGR.
+# However, assuming its RGB is more fun.
+colorspace=RGB
+
+[[effects]]
+
+# use with 'v4l2loopback-ctl set-caps "video/x-raw, format=UYVY, width=1280, height=720" /dev/video2'
+type="biquad"
+# (moving B0 is nice)
+b0 = 0.87
+b1 = 0.66
+b2 = 0.26
+a0 = 0.98
+a1 = 0.91 
+a2 = 0.97

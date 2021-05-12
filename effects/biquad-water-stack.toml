@@ -1,0 +1,10 @@
+[[effects]]
+# met dubbel water.mp4 hstacked, en v4l2loopback loopback glitch, one of the water not moving
+
+type="biquad"
+b0 = 0.87
+b1 = 0.66
+b2 = 0.69
+a0 = 0.21
+a1 = 0.31
+a2 = 0.20

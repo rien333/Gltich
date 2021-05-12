@@ -1,0 +1,12 @@
+# Array of effects (each table under [[effects]]) counts as a new item)
+[[effects]]
+
+type = "biquad"
+
+# moving A1 is nice
+b0 = 0.09
+b1 = 0.26
+b2 = 0.88
+a0 = 0.38
+a1 = 0.42 
+a2 = 0.37

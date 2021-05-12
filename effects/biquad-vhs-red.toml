@@ -1,0 +1,13 @@
+[[effects]]
+
+type = "biquad"
+# An image preview that shows how the effect looks. 
+# Maybe combine this with some sort of emacs-open function?
+preview = ""
+
+b0 = 0.27 
+b1 = 0.37
+b2 = 0.26
+a0 = 0.17
+a1 = 0.32
+a2 = 0.17
